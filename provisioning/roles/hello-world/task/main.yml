@@ -1,8 +1,0 @@
----
-
-- name: Run the hello-world
-  become: yes
-  become_user: root
-  command: echo "Hallo World" >/tmp/h
-  tags: hello-world
-  ignore_errors: yes

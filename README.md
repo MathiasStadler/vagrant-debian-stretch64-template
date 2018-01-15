@@ -25,3 +25,24 @@ https://github.com/geerlingguy/ansible-role-jenkins
 
 
 https://www.vagrantup.com/docs/provisioning/ansible_intro.html
+
+
+
+
+https://github.com/geerlingguy/ansible-role-docker/blob/master/tasks/setup-Debian.yml
+
+http://docs.ansible.com/ansible/latest/playbooks_best_practices.html
+
+
+
+# ansible consept of roles
+http://docs.ansible.com/ansible/latest/playbooks_reuse_roles.html
+
+# using roles 
+http://docs.ansible.com/ansible/latest/playbooks_reuse_roles.html#using-roles
+
+
+
+# crate role structur of ansible role
+ansible-galaxy init <name of role>
+ansible-galaxy init docker
