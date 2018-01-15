@@ -1,9 +1,9 @@
 ---
-- name: Setup environment to run the sample
-  hosts: all
+- hosts: jenkins
+  vars:
+    http_port: 80
+    max_clients: 200
   remote_user: root
-  become: yes
-
-  - role: hello-world
-
-  
+  tasks:
+  - name: Create a file called '/tmp/testfile.txt' with the content 'hello world'.
+    copy: content="hello world\n" dest=/tmp/testfile.txt

@@ -24,3 +24,4 @@ http://ermaker.github.io/blog/2015/11/18/change-insecure-key-to-my-own-key-on-va
 https://github.com/geerlingguy/ansible-role-jenkins
 
 
+https://www.vagrantup.com/docs/provisioning/ansible_intro.html
