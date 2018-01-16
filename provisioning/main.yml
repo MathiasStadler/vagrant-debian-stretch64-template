@@ -1,6 +1,7 @@
 ---
 - hosts: jenkins 
   roles:
-     - docker-install-ce
+#     - docker-install-ce
+     - docker-debloy-run-jenkins-lts
   become: yes
      

@@ -21,6 +21,10 @@ sudo pip install 'docker-compose>=1.7.0'
 
 
 
+# jenkins docker install follow
+https://github.com/chrismeyersfsu/provision_docker
+
+
 
 https://www.vagrantup.com/docs/boxes/base.html
 

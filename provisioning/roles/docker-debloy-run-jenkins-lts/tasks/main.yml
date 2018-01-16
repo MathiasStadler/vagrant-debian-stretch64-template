@@ -1,2 +1,10 @@
 ---
 # tasks file for docker-debloy-run-jenkins-lts
+# from here
+# https://github.com/chrismeyersfsu/provision_docker/blob/master/tasks/main.yml
+
+- name: Ensure required vars are defined
+  fail: msg="provision_docker_inventory_group or provision_docker_inventory is required"
+  when: "provision_docker_inventory_group is not defined and provision_docker_inventory is not defined"
+
+
