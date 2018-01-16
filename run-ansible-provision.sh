@@ -5,6 +5,8 @@ export ANSIBLE_CONFIG=$(pwd)/ansible.cfg
 
 echo "PWD => $(pwd)"
 
+## --check  = dryrun
+
 ansible-playbook  --private-key=.vagrant/machines/default/virtualbox/private_key \
 -u vagrant \
--i .vagrant/provisioners/ansible/inventory/vagrant_ansible_inventory provisioning/main.yml
+-i .vagrant/provisioners/ansible/inventory/vagrant_ansible_inventory provisioning/main.yml 
