@@ -1,11 +1,9 @@
 ---
-- hosts: jenkins 
+# test.yml
+- name: Bring up docker containers for docker connection inventory iface
+  hosts: localhost
   roles:
-#    - docker-install-ce
-     - role docker-debloy-run-jenkins-lts
+    - role: docker-debloy-run-jenkins-lts
       provision_docker_privileged: true,
       provision_docker_inventory_group: "{{ groups['robots'] }}"
       provision_docker_use_docker_connection: true
-
-  become: yes
-     

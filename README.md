@@ -25,6 +25,33 @@ sudo pip install 'docker-compose>=1.7.0'
 https://github.com/chrismeyersfsu/provision_docker
 
 
+# ansible-playbokk additional parameter
+ansible-playbook site.yaml -i hostinv -e firstvar=false -e second_var=value2
+
+
+# Connect your Docker client to a remote Docker host
+https://www.kevinkuszyk.com/2016/11/28/connect-your-docker-client-to-a-remote-docker-host/
+
+# This is how to connect to another host with your docker client, without modifying your local Docker installation or when you don't have a local Docker installation.
+https://gist.github.com/kekru/4e6d49b4290a4eebc7b597c07eaf61f2
+https://hub.docker.com/r/whiledo/docker-remote-api-tls/
+
+
+# create cert for docker installation
+https://docs.docker.com/engine/security/https/
+# with vagrant
+https://github.com/venicegeo/kafka-devbox/blob/master/ca-bootstrap.sh
+# vagrant docker
+https://github.com/deviantony/vagrant-docker
+
+
+
+# docker trust
+https://docs.docker.com/engine/security/trust/
+
+# cis benchmark
+https://docs.docker.com/compliance/cis/docker_ce/
+
 
 https://www.vagrantup.com/docs/boxes/base.html
 
